@@ -345,7 +345,7 @@ int main(){
 	
 		printf("\n\n(a)^4 - 4 (a)^3(b) + 6(a)^2(b)^2 - 4(a)(b) + (b)^4");
 	
-		printf("\n\t%d  + 4 (%d) (%d)   + 6  (%d) (%d) - 4 (%d) (%d) - %d",aSq,a,b,bSq);
+		printf("\n\t%d  - 4 (%d) (%d)   + 6  (%d) (%d) - 4 (%d) (%d) - %d",aSq,a,b,bSq);
 		printf("\n\t\t:%d",bF1);
 	}
 	else{
