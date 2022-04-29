@@ -323,10 +323,10 @@ int main(){
 		printf("\n\t\t:%d",bF1);
 	}
 	}
-	if(userNumber==12)
+	if(userNumber==5)
 	{
-		printf("\nYou Selected Formula 1");
-		printf("\n\n\t(a-b)^4 = (a)^4 - 4 (a)^3(b) + 6(a)^2(b)^2 - 4(a)(b) + (b)^4");
+		printf("\nYou Selected Formula 5");
+		printf("\n\n\t");
 		printf("\n\t_________________________________");
 		printf("\n");
 		
@@ -343,11 +343,12 @@ int main(){
 		int ab2 = 4 * a * b;
 		bF1 = aSq + ab2 + bSq;
 	
-		printf("\n\n(a)^4 - 4 (a)^3(b) + 6(a)^2(b)^2 - 4(a)(b) + (b)^4");
+		printf("\n\n(a)^2 + (b)^2 + (c)^2 + 2(a)(b) + 2(b)(a) + 2(c)(a)");
 	
-		printf("\n\t%d  - 4 (%d) (%d)   + 6  (%d) (%d) - 4 (%d) (%d) - %d",aSq,a,b,bSq);
+		printf("\n\(%d) + (%d) + (%d) +2(%d)(%d) + 2 (%d)(%d) + 2(%d)(%d) ",aSq,a,b,bSq);
 		printf("\n\t\t:%d",bF1);
 	}
+	//	printf("\n (a-b-c)square root = %d",((a*a+b*b+c*c)-(2*a*b)+(2*b*c)-(2*c*a)));
 	else{
 		printf("\n\nYou Entered Wrong Number");
 	}
