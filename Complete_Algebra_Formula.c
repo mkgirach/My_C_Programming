@@ -350,9 +350,35 @@ if(userNumber==11)
 	printf("\n\t = %d",(num1fth - (4*num1*num2Cub) + (6*num1Sq*num2Sq) -(4*num1*num2) + num2fth));
 
 }
+if(userNumber==13)
+	{
+		int num1, num2;
+	
+	printf("Enter the First Number: ");
+	scanf("%d",&num1);
+	
+	printf("Enter the Second Number: ");
+	scanf("%d", &num2);
+	
+	int num1Sq = num1 * num1;
+	int num1Cub = num1Sq * num1;
+	int num1fth = num1Sq * num1Sq;
+	
+	int num2Sq = num2 * num2;
+	int num2Cub = num2Sq * num2;
+	int num2fth = num2Sq * num2Sq;
+
+	printf("\n");
+	//((a^4)-(b^4)) = ((a-b)(a+b)(a)^2 + (b)^2)
+	printf("(%d)^4 - (%d)^4 = ((%d-%d)(a+b)(%d)+(%d))",num1,num2,num1,num1,num2,num1,num2,num1,num2,num2);
+	printf("\n\t =((%d-%d)(a+b)(%d)+(%d)) ",num1fth,num1,num2Cub,num1Sq,num2Sq,num1,num2,num2fth);
+	printf("\n\t = %d - %d + %d - %d + %d",num1fth,(4*num1*num2Cub),(6*num1Sq*num2Sq),(4*num1*num2),num2fth);
+	printf("\n\t = %d",(num1fth - (4*num1*num2Cub) + (6*num1Sq*num2Sq) -(4*num1*num2) + num2fth));
+
+}
     else {
-    	printf("\n brother plz value correct");
+    	printf("\n __________________BROTHER PLEASE CORRECT NUMBER_________________");
 	}
 }
 
-// (a)^3 - (b)^3 = ((a)^2 + (a)(b) + (b)^2)
+//((a^4)-(b^4)) = ((a-b)(a+b)(a)^2 + (b)^2)
